@@ -1,1 +1,8 @@
-
+{
+  "_id": {
+    "$oid": "66a1e31e189588ab79d5edb4"
+  },
+  "name": "Oindrila",
+  "password": "$2b$10$.sbsHgp0VeCKjyUBiiHJPuQJLxJ7I7jFVfV0LebOyCrWwvgoJ1Ake",
+  "__v": 0
+}
