@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playwrite+US+Trad:wght@100..400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oswald' , sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg,#316098, #9c6dbe) ;
+}
+.Calculator{
+  padding: 20px;
+  margin: 0 3px;   
+  border: 1px solid rgb(45, 156, 139);
+  background: transparent;
+  border-radius: 16px;
+  box-shadow: 0px 3px 15px rgb(8, 51, 49);
+}
+input{
+  width: 340px;
+  font-size: 40px;
+  margin: 10px;
+  padding: 24px;
+  border-color: rgb(169, 216, 216);
+  background: transparent;
+  box-shadow: 0px 3px 15px rgba(163, 246, 228, 0.1) ;
+  text-align: right;
+  cursor: pointer;
+  color: aliceblue;
+}
+
+input::placeholder{
+  color: #f5f3f3;
+}
+
+button{
+  border-color:rgb(176, 206, 233);
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 50%;
+  background: transparent;
+  color: #ffffff;
+  font-size: 20px;
+  box-shadow: -8px -8px 15px rgba(70, 114, 112, 0.1);
+  cursor: pointer;
+}
+.equalButton{
+  background-color: rgb(150, 117, 73);
+}
+.operator{
+  color:rgb(94, 194, 160);
+}
